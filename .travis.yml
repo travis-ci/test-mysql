@@ -1,0 +1,14 @@
+sudo: required
+dist: xenial
+language: ruby
+
+services: 
+- mysql
+
+before_install:
+- echo "START"
+- export
+- ps aux
+
+script:
+- echo "END"`
