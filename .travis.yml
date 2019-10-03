@@ -2,7 +2,7 @@ sudo: required
 dist: xenial
 language: ruby
 
-services: 
+services:
 - mysql
 
 before_install:
@@ -11,4 +11,4 @@ before_install:
 - ps aux
 
 script:
-- echo "END"`
+- echo "END"
